@@ -1,0 +1,332 @@
+.logo-linkedin-child {
+    width: 872px;
+    height: 569px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    max-width: 100%;
+  }
+  .logo-linkedin,
+  .main-container {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .logo-linkedin {
+    height: 1244px;
+    flex: 1;
+    background-color: var(--color-gray-400);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 48px 0 466px;
+    gap: var(--gap-67xl);
+    z-index: 1;
+  }
+  .main-container {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 297px;
+  }
+  .frame-child,
+  .frame-wrapper {
+    border-radius: var(--br-xl);
+    overflow: hidden;
+    flex-shrink: 0;
+    box-sizing: border-box;
+  }
+  .frame-child {
+    margin-left: -86px;
+    height: 452px;
+    width: 443px;
+    position: relative;
+    backdrop-filter: blur(19px);
+    border: 2px solid var(--f0f0f);
+    opacity: 0.3;
+    mix-blend-mode: normal;
+    max-width: calc(100% - -86px);
+  }
+  .frame-wrapper {
+    height: 474px;
+    width: 506px;
+    margin: 0 !important;
+    position: absolute;
+    bottom: 0;
+    left: 97px;
+    background: linear-gradient(-89.72deg, #d3bd00, #5aaf87);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 92px 0 0;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .portrait-corporate-woman-worki-icon {
+    height: 491px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .frame-parent {
+    width: 736px;
+    margin: 0 !important;
+    position: absolute;
+    top: 2008px;
+    left: 1071px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .inpay-child {
+    width: 442px;
+    display: none;
+    max-width: 100%;
+    z-index: 3;
+  }
+  .every-transaction,
+  .one-portal {
+    margin: 0;
+  }
+  .one-portal-every-container {
+    margin: 0;
+    width: 561px;
+    height: 93px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .our-customer-portal {
+    margin: 0;
+  }
+  .customizable-downloadable,
+  .multiple-integration-methods,
+  .real-time-247-365,
+  .rich-data-analysis {
+    margin-bottom: 0;
+  }
+  .real-time-247-365-transacti {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-18xl);
+  }
+  .our-customer-portal-container {
+    width: 633px;
+    height: 349px;
+    position: relative;
+    font-size: var(--font-size-9xl);
+    line-height: 36px;
+    font-weight: 500;
+    font-family: var(--font-dm-sans);
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .portal {
+    margin-right: -4px;
+    margin-bottom: 128px;
+    width: 823px;
+    background-color: var(--color-mediumaquamarine-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 115px var(--padding-xl) var(--padding-12xs) 122px;
+    box-sizing: border-box;
+    gap: 56px;
+    max-width: 100%;
+  }
+  .submit {
+    position: relative;
+    font-size: var(--font-size-13xl);
+    font-weight: 500;
+    font-family: var(--font-dm-sans);
+    color: var(--f0f0f);
+    text-align: left;
+    display: inline-block;
+    min-width: 116px;
+  }
+  .submit-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .fiarrow-right-circle-icon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .submit-button-container {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lgi) var(--padding-13xl) var(--padding-mini);
+    background-color: transparent;
+    backdrop-filter: blur(19px);
+    border-radius: var(--br-xl);
+    background: linear-gradient(264.61deg, #24343e, #5aaf87);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-10xl);
+    mix-blend-mode: normal;
+  }
+  .submit-button-container-wrapper {
+    width: 431px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .frame-group,
+  .inpay,
+  .sales-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .saless {
+    width: 100%;
+    display: flex;
+    gap: 143px;
+  }
+  .sales-img {
+    margin-left: 109px;
+  }
+  .sales-parent {
+    width: 814px;
+    backdrop-filter: blur(19px);
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray-1000);
+    border: 2px solid var(--linear);
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: flex-start;
+    padding: 44px var(--padding-10xl) 35px 30px;
+    gap: 54px;
+    mix-blend-mode: normal;
+    max-width: 100%;
+  }
+  .frame-group,
+  .inpay {
+    align-items: flex-end;
+  }
+  .frame-group {
+    align-self: stretch;
+    padding: 0 134px 0 0;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .inpay {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-whitesmoke);
+    overflow: hidden;
+    gap: var(--gap-20xl);
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-45xl);
+    color: var(--f0f0f);
+    font-family: var(--font-gayathri);
+  }
+  @media screen and (max-width: 1400px) {
+    .logo-linkedin {
+      height: auto;
+      gap: var(--gap-24xl);
+      padding-top: var(--padding-xl);
+      padding-bottom: 197px;
+      box-sizing: border-box;
+    }
+    .main-container {
+      padding-bottom: 193px;
+      box-sizing: border-box;
+    }
+    .frame-group {
+      padding-right: var(--padding-48xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 925px) {
+    .logo-linkedin {
+      gap: var(--gap-2xl);
+      padding-bottom: 128px;
+      box-sizing: border-box;
+    }
+    .main-container {
+      padding-bottom: 125px;
+      box-sizing: border-box;
+    }
+    .one-portal-every-container {
+      font-size: var(--font-size-32xl);
+    }
+    .portal {
+      padding-left: var(--padding-42xl);
+      padding-top: 75px;
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .submit {
+      font-size: var(--font-size-7xl);
+    }
+    .sales-parent {
+      padding-top: var(--padding-10xl);
+      padding-bottom: var(--padding-4xl);
+      box-sizing: border-box;
+    }
+    .frame-group {
+      padding-right: var(--padding-14xl);
+      box-sizing: border-box;
+    }
+    .inpay {
+      gap: var(--gap-lgi);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .main-container {
+      padding-bottom: 81px;
+      box-sizing: border-box;
+    }
+    .one-portal-every-container {
+      font-size: var(--font-size-19xl);
+    }
+    .our-customer-portal-container {
+      font-size: var(--font-size-3xl);
+      line-height: 29px;
+    }
+    .portal {
+      gap: 28px;
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .submit {
+      font-size: var(--font-size-lgi);
+    }
+    .sales-parent {
+      gap: 27px;
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }

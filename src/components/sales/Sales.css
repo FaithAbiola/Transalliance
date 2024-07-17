@@ -1,0 +1,211 @@
+.email,
+.speak-to-sales {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.speak-to-sales {
+  margin: 0;
+  width: 289px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.email {
+  width: 90px;
+}
+.name-input {
+  border: 0.5px solid var(--color-dimgray);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 52px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.first-name {
+  width: 137px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.fields-child {
+  border: 0.5px solid var(--color-dimgray);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 52px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.fields1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.last-name {
+  width: 137px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.fields-item {
+  border: 0.5px solid var(--color-dimgray);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 52px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.fields2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.message {
+  width: 137px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.fields-inner {
+  border: 0.5px solid var(--color-dimgray);
+  background-color: var(--color-white);
+  height: 131px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fields3,
+.form,
+.form-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.fields3 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.form,
+.form-wrapper {
+  max-width: 100%;
+}
+.form {
+  width: 571px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.form-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.empty-submit {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.privacy-policy1 {
+  text-decoration: underline;
+}
+.privacy-policy {
+  color: inherit;
+}
+.i-agree-to-container {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 402px;
+  max-width: 100%;
+}
+.agreement-check,
+.empty-submit-parent,
+.sales {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.empty-submit-parent {
+  width: 660px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-mid);
+}
+.agreement-check,
+.sales {
+  align-self: stretch;
+  justify-content: flex-end;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+}
+.sales {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lg-5);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 925px) {
+  .speak-to-sales {
+    font-size: var(--font-size-13xl);
+  }
+  .i-agree-to-container {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .speak-to-sales {
+    font-size: var(--font-size-5xl);
+  }
+  .email,
+  .first-name,
+  .last-name,
+  .message {
+    font-size: var(--font-size-lgi);
+  }
+}

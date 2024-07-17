@@ -1,0 +1,220 @@
+.wrapper-ellipse-14-child {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transform: scale(2.073);
+  }
+  .wrapper-ellipse-14 {
+    height: 1126px;
+    flex: 1;
+    position: relative;
+    border-radius: 50%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+  .send-description-container-child {
+    width: 452.5px;
+    height: 452.5px;
+    position: absolute;
+    margin: 0 !important;
+    top: -84px;
+    left: -42px;
+    filter: blur(512px);
+    border-radius: 50%;
+    background-color: var(--color-white);
+  }
+  .send-and-receive {
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .image-35-icon,
+  .image-36-icon,
+  .image-38-icon {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 302px;
+    height: 110px;
+    object-fit: cover;
+  }
+  .image-35-icon,
+  .image-38-icon {
+    top: 49px;
+    left: 665px;
+    width: 350px;
+    height: 96px;
+  }
+  .image-38-icon {
+    top: 19px;
+    left: 942px;
+    width: 399px;
+    height: 156px;
+    z-index: 1;
+  }
+  .image-33-icon,
+  .image-34-icon,
+  .image-37-icon {
+    position: absolute;
+    top: 34px;
+    left: 1290px;
+    width: 323px;
+    height: 127px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .image-33-icon,
+  .image-34-icon {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 187px;
+    max-height: 100%;
+    width: 363px;
+    z-index: 1;
+  }
+  .image-33-icon {
+    left: 405px;
+    width: 379px;
+    z-index: 2;
+  }
+  .image-grid {
+    height: 195px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .image-grid-container,
+  .send-description-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .image-grid-container {
+    width: 1623px;
+    margin: 0 !important;
+    position: absolute;
+    right: -1087px;
+    bottom: -186px;
+    padding: 0 var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+    z-index: 4;
+  }
+  .send-description-wrapper {
+    width: 477px;
+    position: relative;
+    max-width: 100%;
+  }
+  .send-content,
+  .send-description-container {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .send-description-container {
+    width: 1626px;
+    margin: 0 !important;
+    top: 157px;
+    right: -1134px;
+    backdrop-filter: blur(56px);
+    border-radius: var(--br-xl);
+    background-color: var(--color-gray-1000);
+    border: 1px solid var(--linear);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    padding: var(--padding-31xl) var(--padding-40xl) var(--padding-230xl);
+    mix-blend-mode: normal;
+    min-height: 381px;
+    z-index: 3;
+  }
+  .send-content {
+    top: 0;
+    left: -485px;
+    width: 1126px;
+    height: 1126px;
+    flex-direction: row;
+  }
+  .frame-div {
+    position: absolute;
+    top: 966px;
+    left: 160px;
+    backdrop-filter: blur(19px);
+    border-radius: var(--br-xl);
+    border: 2px solid var(--color-mediumaquamarine-200);
+    box-sizing: border-box;
+    width: 278px;
+    height: 107px;
+    overflow: hidden;
+    opacity: 0.2;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .money-out {
+    position: absolute;
+    top: 36px;
+    left: 18px;
+    font-weight: 500;
+    display: inline-block;
+    width: 184px;
+    z-index: 3;
+  }
+  .fiarrow-right-circle-icon2,
+  .money-out-container {
+    position: absolute;
+    top: 37px;
+    left: 202px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    z-index: 4;
+  }
+  .money-out-container {
+    top: 998px;
+    left: 119px;
+    backdrop-filter: blur(19px);
+    border-radius: var(--br-xl);
+    background: linear-gradient(263.68deg, #5aaf87, #d3bd00);
+    width: 290px;
+    height: 112px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+    z-index: 2;
+    font-size: var(--font-size-13xl);
+  }
+  .send-content-parent {
+    width: 641px;
+    height: 1126px;
+    position: absolute;
+    margin: 0 !important;
+    top: 936px;
+    left: 0;
+    text-align: left;
+    font-size: var(--font-size-11xl);
+    color: var(--f0f0f);
+    font-family: var(--font-dm-sans);
+  }
+  @media screen and (max-width: 925px) {
+    .send-and-receive {
+      font-size: var(--font-size-5xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .send-and-receive {
+      font-size: var(--font-size-lg);
+    }
+  }
